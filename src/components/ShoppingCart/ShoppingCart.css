@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+/****** Shopping Cart ********/
+.gen{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #090020;
+}
+.cart-container {
+    width: 35%;
+    height: 67vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    font-size: 30px;
+    font-family: 'Irish Grover';
+    color: white;
+    border-radius: 8px;
+  }
+  .contains{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+  }
+  .botones{
+    width: 20%;
+  }
+  .botones button{
+    width: 100%;
+    height: 6vh;
+    background-color: #090020;
+    border: none;
+    border-radius: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border: white solid 1px;
+    font-weight: 600;
+  }
+  

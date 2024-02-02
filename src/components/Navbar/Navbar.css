@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav {
+  height: 15vh;
+    display: flex;
+    background-color: #c40000f5;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .LogoTitulo{
+    width: 23%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+  }
+  .LogoTitulo .logo{
+    width: 40%;
+    height: 15vh;
+    border-radius: 100%;
+    display: flex;
+    justify-content: end;
+    
+  }
+  .LogoTitulo .logo img{
+    width: 70%;
+    border-radius: 100%;
+  }
+  .LogoTitulo .titulo{
+    width: 50%;
+    color: #090020;
+    font-family: 'Irish Grover';
+    
+  }
+  hr{
+    width: 0.3%;
+    height: 55%;
+    background-color: #090020;
+    border: #090020 solid 1px;
+    border-radius: 30%;
+  }
+  .nav-list{
+    width: 8%;
+    height: 16vh;
+    display: flex;
+    align-items: center;
+  }
+  .nav-list img{
+    width: 100%;
+  }
+  .nav-list li{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+  }
+  .cart-count {
+    font-family: 'Irish Grover';
+    color: black;
+    width: 10%;
+  }
+
+  
